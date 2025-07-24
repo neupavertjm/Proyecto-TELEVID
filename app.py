@@ -54,7 +54,7 @@ if termino_seleccionado and not busqueda:
     busqueda = termino_seleccionado
 
 # Campo de texto para introducir término manualmente
-busqueda = st.text_input("Escribe un término para buscar (recuerda que éste término debe estar en el corpus de la investigación):")
+busqueda = st.text_input("Escribe un término para buscar (recuerda que este término debe estar en el corpus de la investigación):")
 
 
 # --- Lógica de búsqueda ---

@@ -34,6 +34,7 @@ st.sidebar.markdown("### Proyecto realizado por")
 st.sidebar.markdown("**Juan Manuel Neupavert Alzola**")
 st.sidebar.markdown("[LinkedIn](https://www.linkedin.com/in/juan-manuel-neupavert/) | [Email](mailto:neupavertjm@gmail.com)")
 # --- INPUT DE BÚSQUEDA ---
+busqueda = ""  # Inicializa la variable
 
 # Lista fija de términos buscables
 terminos_disponibles = [
@@ -49,13 +50,14 @@ terminos_disponibles = [
 # Desplegable para seleccionar término
 termino_seleccionado = st.selectbox("📂 También puedes seleccionar un término directamente:", [""] + terminos_disponibles)
 
-# Si se selecciona un término y no se ha escrito nada, usarlo como búsqueda
-if termino_seleccionado and not busqueda:
+# Si se selecciona un término, se asigna a 'busqueda'
+if termino_seleccionado:
     busqueda = termino_seleccionado
 
-# Campo de texto para introducir término manualmente
-busqueda = st.text_input("Escribe un término para buscar (recuerda que este término debe estar en el corpus de la investigación):")
-
+# Campo de texto para introducir término manualmente (sobrescribe si se escribe algo)
+entrada_manual = st.text_input("🖊️ O escribe un término para buscar:")
+if entrada_manual:
+    busqueda = entrada_manual
 
 # --- Lógica de búsqueda ---
 if busqueda:

@@ -33,9 +33,29 @@ st.sidebar.info("🚧 El proyecto TELEVID (Términos Especializados del Lenguaje
 st.sidebar.markdown("### Proyecto realizado por")
 st.sidebar.markdown("**Juan Manuel Neupavert Alzola**")
 st.sidebar.markdown("[LinkedIn](https://www.linkedin.com/in/juan-manuel-neupavert/) | [Email](mailto:neupavertjm@gmail.com)")
-
 # --- INPUT DE BÚSQUEDA ---
+
+# Lista fija de términos buscables
+terminos_disponibles = [
+    "Ace", "Agente", "Baitear", "Bait", "Baiter", "Boost", "Boostear", "Boosteo", "Bot", "Botlane",
+    "Bufo", "Bufar", "Buff", "Carrear", "Carry", "Campeón", "Clutcher", "Clutchear", "Clutch", "Debuff",
+    "Kit", "Disengage", "Draft", "Drop", "Droppear", "Engagear", "Engage", "Feed", "Feedear", "Flash",
+    "Flashear", "FPS", "Frag", "Gankeo", "Gankear", "Gankeado", "Kill", "Matar", "Kill feed", "Nerfeo",
+    "Nerfear", "A una bala", "Oneshot", "Oneshotear", "OTP", "Pentakill", "Pentakillear", "Ping", "Pinguear",
+    "Pingueo", "Pracc", "Praquear", "Scrimmear", "Scrim", "Solokill", "Solokillear", "Stack", "Stackear",
+    "Carga", "Toplane", "Toplaner"
+]
+
+# Desplegable para seleccionar término
+termino_seleccionado = st.selectbox("📂 También puedes seleccionar un término directamente:", [""] + terminos_disponibles)
+
+# Si se selecciona un término y no se ha escrito nada, usarlo como búsqueda
+if termino_seleccionado and not busqueda:
+    busqueda = termino_seleccionado
+
+# Campo de texto para introducir término manualmente
 busqueda = st.text_input("Escribe un término para buscar (recuerda que éste término debe estar en el corpus de la investigación):")
+
 
 # --- Lógica de búsqueda ---
 if busqueda:

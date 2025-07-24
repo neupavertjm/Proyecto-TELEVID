@@ -39,12 +39,12 @@ busqueda = ""  # Inicializa la variable
 # Lista fija de términos buscables
 terminos_disponibles = [
     "Ace", "Agente", "Baitear", "Bait", "Baiter", "Boost", "Boostear", "Boosteo", "Bot", "Botlane",
-    "Bufo", "Bufar", "Buff", "Carrear", "Carry", "Campeón", "Clutcher", "Clutchear", "Clutch", "Debuff",
+    "Bufo", "Bufar", "Buff", "Carga", "Carrear", "Carry", "Campeón", "Clutcher", "Clutchear", "Clutch", "Debuff",
     "Kit", "Disengage", "Draft", "Drop", "Droppear", "Engagear", "Engage", "Feed", "Feedear", "Flash",
     "Flashear", "FPS", "Frag", "Gankeo", "Gankear", "Gankeado", "Kill", "Matar", "Kill feed", "Nerfeo",
     "Nerfear", "A una bala", "Oneshot", "Oneshotear", "OTP", "Pentakill", "Pentakillear", "Ping", "Pinguear",
     "Pingueo", "Pracc", "Praquear", "Scrimmear", "Scrim", "Solokill", "Solokillear", "Stack", "Stackear",
-    "Carga", "Toplane", "Toplaner"
+    "Toplane", "Toplaner"
 ]
 
 # Desplegable para seleccionar término

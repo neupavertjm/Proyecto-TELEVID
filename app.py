@@ -48,14 +48,14 @@ terminos_disponibles = [
 ]
 
 # Desplegable para seleccionar término
-termino_seleccionado = st.selectbox("📂 También puedes seleccionar un término directamente:", [""] + terminos_disponibles)
+termino_seleccionado = st.selectbox("📂 Puedes seleccionar un término directamente:", [""] + terminos_disponibles)
 
 # Si se selecciona un término, se asigna a 'busqueda'
 if termino_seleccionado:
     busqueda = termino_seleccionado
 
 # Campo de texto para introducir término manualmente (sobrescribe si se escribe algo)
-entrada_manual = st.text_input("🖊️ O escribe un término para buscar:")
+entrada_manual = st.text_input("🖊️ O buscar el término que quieras:")
 if entrada_manual:
     busqueda = entrada_manual
 

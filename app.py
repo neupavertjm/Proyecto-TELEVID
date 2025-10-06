@@ -162,23 +162,6 @@ with st.expander("🧩 De TELEVID a NeupaTerm"):
     Ambos proyectos comparten un objetivo común: **mejorar la comprensión y gestión del lenguaje especializado**, tomando los videojuegos como dominio inicial de análisis.
     """)
 
-    st.markdown("<br>", unsafe_allow_html=True)
-    st.markdown(
-        """
-        <div style='text-align:center; background-color:white;
-                    border:1px solid #ddd; border-radius:12px;
-                    box-shadow:0px 2px 6px rgba(0,0,0,0.1);
-                    padding:12px; width:100%;'>
-            <img src={logo_neupaterm} width='220'>
-            <p style='font-size:13px; color:gray; margin-top:8px;'>
-                <i>Logo del gestor terminológico <b>NeupaTerm</b>, evolución directa del prototipo TELEVID.</i>
-            </p>
-        </div>
-        """,
-        unsafe_allow_html=True
-    )
-
-
 # --- FOOTER ---
 st.markdown("<hr>", unsafe_allow_html=True)
 col_footer1, col_footer2, col_footer3 = st.columns([1, 4, 1])

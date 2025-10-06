@@ -30,9 +30,16 @@ st.markdown(
 # --- SIDEBAR ---
 st.sidebar.title("ℹ️ Información general")
 st.sidebar.info(
-    "🚧 El proyecto TELEVID (Términos Especializados del Lenguaje Especializado de los Videojuegos) "
-    "está aún en desarrollo. Algunas funcionalidades pueden no estar disponibles."
+    "🧩 **TELEVID** fue el primer prototipo funcional de un buscador terminológico aplicado al lenguaje de los videojuegos. "
+    "Su diseño se basa en el modelo **DOCUTERM**, desarrollado en el Instituto de Lingüística Aplicada (ILA, Universidad de Cádiz) "
+    "por el profesor **Miguel Casas Gómez**, centrado en la documentación de los usos terminológicos. "
+    "Puedes consultar la publicación original en: "
+    "[Casas Gómez (2022)](https://doi.org/10.4995/rlyla.2022.16249). "
+    "A partir de esta base teórica y metodológica surge **NeupaTerm**, un gestor terminológico integral que amplía las posibilidades "
+    "de análisis, gestión y documentación de los usos en distintos lenguajes especializados."
 )
+
+
 
 st.sidebar.markdown("### 👤 Proyecto realizado por")
 st.sidebar.markdown("**Juan Manuel Neupavert Alzola**")
@@ -42,16 +49,6 @@ st.sidebar.markdown("[LinkedIn](https://www.linkedin.com/in/juan-manuel-neupaver
 st.sidebar.markdown("---")
 st.sidebar.markdown(
     f"""
-    <div style="
-        background-color:white;
-        border:1px solid #ddd;
-        border-radius:10px;
-        box-shadow:0px 2px 6px rgba(0,0,0,0.1);
-        padding:12px;
-        text-align:center;
-        margin-bottom:10px;">
-        <img src='{logo_neupaterm}' width='160'>
-    </div>
     <p style='text-align:center; font-size:13px; color:gray; margin-top:-5px;'>
         Proyecto vinculado:<br>
         <a href='https://neupaterm.com' target='_blank' style='text-decoration:none; color:#2A63B8;'>

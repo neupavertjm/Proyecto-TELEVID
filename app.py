@@ -169,7 +169,7 @@ with st.expander("🧩 De TELEVID a NeupaTerm"):
                     border:1px solid #ddd; border-radius:12px;
                     box-shadow:0px 2px 6px rgba(0,0,0,0.1);
                     padding:12px; width:100%;'>
-            <img src='neupaterm_logo.png' width='220'>
+            <img src={logo_neupaterm} width='220'>
             <p style='font-size:13px; color:gray; margin-top:8px;'>
                 <i>Logo del gestor terminológico <b>NeupaTerm</b>, evolución directa del prototipo TELEVID.</i>
             </p>

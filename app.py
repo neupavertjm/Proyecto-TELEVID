@@ -22,14 +22,14 @@ with open('data.json', 'r', encoding='utf-8') as f:
 st.title("🔍 Buscador de términos y usos terminológicos del lenguaje especializado de los videojuegos")
 st.markdown(
     """
-    **Proyecto realizado por Juan Manuel Neupavert Alzola**  
-    Este buscador, que forma parte de la continuación de mi Trabajo de Fin de Máster, permite explorar términos y usos terminológicos pertenecientes al lenguaje especializado de los videojuegos, 
-    pudiendo ver los distintos usos que tiene cada término, sus definiciones, los mecanismos de incorporación al español y sus relaciones conceptuales 
-    dentro de nuestro corpus. Asimismo, se trata de un primer paso en mi carrera como investigador en terminología y tecnologías del lenguaje, 
-    que ha dado lugar al desarrollo de **[NeupaTerm](https://www.neupaterm.com)**, un gestor terminológico multilingüe basado en el modelo **DOCUTERM**, 
-    que nos permite gestionar y documentar todos los usos terminológicos de un término dentro de un lenguaje especializado sobre el que se basará mi futura tesis doctoral.
-    """
-)
+Este buscador, desarrollado como continuación de mi Trabajo de Fin de Máster, permite explorar términos y usos terminológicos
+propios del lenguaje especializado de los videojuegos. A través de él, es posible consultar los diferentes usos de cada término,
+sus definiciones, los mecanismos de incorporación al español y las relaciones conceptuales que establece dentro del corpus. 
+Este proyecto constituye, además, el primer paso de mi trayectoria como investigador en terminología y tecnologías del lenguaje,
+y ha dado origen a NeupaTerm**[NeupaTerm](https://www.neupaterm.com)**, un gestor terminológico multilingüe basado en el modelo DOCUTERM, diseñado para documentar
+y gestionar los diversos usos terminológicos de un término dentro de un dominio especializado, fundamento de mi futura tesis
+doctoral.
+""")
 
 # --- SIDEBAR ---
 st.sidebar.title("ℹ️ Información general")

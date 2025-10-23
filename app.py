@@ -161,11 +161,11 @@ with st.expander("🧩 De TELEVID a NeupaTerm"):
 st.markdown("### 📄 Descargar listado completo de términos")
 
 try:
-    with open("data/terminosAETER.pdf", "rb") as pdf_file:
+    with open("TerminosAETER.pdf", "rb") as pdf_file:
         st.download_button(
             label="📥 Descargar PDF",
             data=pdf_file,
-            file_name="terminosAETER.pdf",
+            file_name="TerminosAETER.pdf",
             mime="application/pdf",
             help="Descarga el listado completo de términos en formato PDF"
         )

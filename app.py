@@ -65,9 +65,9 @@ st.sidebar.markdown(
 
 # --- INTERFAZ PRINCIPAL ---
 st.markdown("### 🕹️ Explora los términos del corpus especializado")
-st.markdown("Selecciona un término o escríbelo manualmente para consultar sus usos en el corpus:")
 st.markdown("(Es una investigación para un trabajo de fin de master, por tanto solo hay 64 términos y 84 usos terminológicos de los videojuegos COunter Strike, League of Legends y Valorant, " \
 "aunque se prevé retomar esta investigación más adelante con el fin de documentar todos los usos posibles de este lenguaje especializado).")
+st.markdown("Selecciona un término o escríbelo manualmente para consultar sus usos en el corpus:")
 
 terminos_disponibles = [
     "Ace", "Agente", "Baitear", "Bait", "Baiter", "Boost", "Boostear", "Boosteo", "Bot", "Botlane",
@@ -155,6 +155,23 @@ with st.expander("🧩 De TELEVID a NeupaTerm"):
     
     Ambos proyectos comparten un objetivo común: **mejorar la comprensión y gestión del lenguaje especializado**, tomando los videojuegos como dominio inicial de análisis.
     """)
+
+
+# --- DESCARGA DE PDF ---
+st.markdown("### 📄 Descargar listado completo de términos")
+
+try:
+    with open("data/terminosAETER.pdf", "rb") as pdf_file:
+        st.download_button(
+            label="📥 Descargar PDF",
+            data=pdf_file,
+            file_name="listado_terminos.pdf",
+            mime="application/pdf",
+            help="Descarga el listado completo de términos en formato PDF"
+        )
+except FileNotFoundError:
+    st.warning("⚠️ El archivo 'terminosAETER.pdf' no se encuentra en la carpeta 'data/'. "
+               "Asegúrate de haberlo generado o copiado antes de intentar descargarlo.")
 
 # --- FOOTER ---
 st.markdown("<hr>", unsafe_allow_html=True)

@@ -23,20 +23,22 @@ st.title("🔍 Buscador de términos y usos terminológicos del lenguaje especia
 st.markdown(
     """
     **Proyecto realizado por Juan Manuel Neupavert Alzola**  
-    Este buscador, que forma parte de la continuación de mi Trabajo de Fin de Máster, permite explorar términos y usos terminológicos pertenecientes al lenguaje especializado de los videojuegos, pudiendo ver los distintos usos que tiene cada término, sus definiciones, los mecanismos de incorporación al español y sus relaciones conceptuales dentro de nuestro corpus.
+    Este buscador, que forma parte de la continuación de mi Trabajo de Fin de Máster, permite explorar términos y usos terminológicos pertenecientes al lenguaje especializado de los videojuegos, 
+    pudiendo ver los distintos usos que tiene cada término, sus definiciones, los mecanismos de incorporación al español y sus relaciones conceptuales 
+    dentro de nuestro corpus. Asimismo, se trata de un primer paso en mi carrera como investigador en terminología y tecnologías del lenguaje, 
+    que ha dado lugar al desarrollo de **[NeupaTerm](https://www.neupaterm.com)**, un gestor terminológico multilingüe basado en el modelo **DOCUTERM**, 
+    que nos permite gestionar y documentar todos los usos terminológicos de un término dentro de un lenguaje especializado sobre el que se basará mi futura tesis doctoral.
     """
 )
 
 # --- SIDEBAR ---
 st.sidebar.title("ℹ️ Información general")
 st.sidebar.info(
-    "🧩 **TELEVID** fue el primer prototipo funcional de un buscador terminológico aplicado al lenguaje de los videojuegos. "
+    "🧩 **TELEVID** es el primer prototipo funcional de un buscador terminológico aplicado al lenguaje de los videojuegos."
     "Su diseño se basa en el modelo **DOCUTERM**, desarrollado en el Instituto de Lingüística Aplicada (ILA, Universidad de Cádiz) "
     "por el profesor **Miguel Casas Gómez**, centrado en la documentación de los usos terminológicos. "
     "Puedes consultar la publicación original en: "
     "[Casas Gómez (2022)](https://doi.org/10.4995/rlyla.2022.16249). "
-    "A partir de esta base teórica y metodológica surge **NeupaTerm**, un gestor terminológico integral que amplía las posibilidades "
-    "de análisis, gestión y documentación de los usos en distintos lenguajes especializados."
 )
 
 
@@ -157,7 +159,7 @@ with st.expander("🧩 De TELEVID a NeupaTerm"):
     A partir de su estructura de búsqueda de corpus, surge **[NeupaTerm](https://www.neupaterm.com)**, un sistema que amplía las capacidades de TELEVID para:
     - Gestionar glosarios terminológicos completos.  
     - Documentar los usos terminológicos según el modelo **DOCUTERM**.  
-    - Trabajar con equivalencias multilingües y formatos profesionales (JSON, CSV, TMX).  
+    - Trabajar con posibles equivalencias multilingües y formatos profesionales (JSON, CSV, TMX).  
     
     Ambos proyectos comparten un objetivo común: **mejorar la comprensión y gestión del lenguaje especializado**, tomando los videojuegos como dominio inicial de análisis.
     """)

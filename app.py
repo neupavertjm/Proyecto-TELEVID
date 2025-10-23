@@ -165,12 +165,12 @@ try:
         st.download_button(
             label="📥 Descargar PDF",
             data=pdf_file,
-            file_name="listado_terminos.pdf",
+            file_name="terminosAETER.pdf",
             mime="application/pdf",
             help="Descarga el listado completo de términos en formato PDF"
         )
 except FileNotFoundError:
-    st.warning("⚠️ El archivo 'terminosAETER.pdf' no se encuentra en la carpeta 'data/'. "
+    st.warning("⚠️ El archivo 'TerminosAETER.pdf' no se encuentra en la carpeta 'data/'. "
                "Asegúrate de haberlo generado o copiado antes de intentar descargarlo.")
 
 # --- FOOTER ---

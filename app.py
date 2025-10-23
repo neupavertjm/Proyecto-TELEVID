@@ -161,16 +161,16 @@ with st.expander("🧩 De TELEVID a NeupaTerm"):
 st.markdown("### 📄 Descargar listado completo de términos")
 
 try:
-    with open("TerminosAETER.pdf", "rb") as pdf_file:
+    with open("AETER25.pdf", "rb") as pdf_file:
         st.download_button(
             label="📥 Descargar PDF",
             data=pdf_file,
-            file_name="TerminosAETER.pdf",
+            file_name="Poster y listado de términos AETER 2025.pdf",
             mime="application/pdf",
             help="Descarga el listado completo de términos en formato PDF"
         )
 except FileNotFoundError:
-    st.warning("⚠️ El archivo 'TerminosAETER.pdf' no se encuentra en la carpeta 'data/'. "
+    st.warning("⚠️ El archivo 'TerminosAETER.pdf' no se encuentra en la carpeta "
                "Asegúrate de haberlo generado o copiado antes de intentar descargarlo.")
 
 # --- FOOTER ---

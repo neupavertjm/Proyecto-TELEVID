@@ -65,8 +65,8 @@ st.sidebar.markdown(
 
 # --- INTERFAZ PRINCIPAL ---
 st.markdown("### 🕹️ Explora los términos del corpus especializado")
-st.markdown("(Es una investigación para un trabajo de fin de master, por tanto solo hay 64 términos y 84 usos terminológicos de los videojuegos COunter Strike, League of Legends y Valorant, " \
-"aunque se prevé retomar esta investigación más adelante con el fin de documentar todos los usos posibles de este lenguaje especializado).")
+st.markdown("Es una investigación para un trabajo de fin de master, por tanto solo hay 64 términos y 84 usos terminológicos de los siguientes videojuegos: Counter Strike, League of Legends y Valorant. " \
+"Se prevé retomar esta investigación más adelante con el fin de documentar todos los usos posibles de este lenguaje especializado.")
 st.markdown("Selecciona un término o escríbelo manualmente para consultar sus usos en el corpus:")
 
 terminos_disponibles = [

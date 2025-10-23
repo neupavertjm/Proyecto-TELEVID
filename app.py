@@ -158,7 +158,7 @@ with st.expander("🧩 De TELEVID a NeupaTerm"):
 
 
 # --- DESCARGA DE PDF ---
-st.markdown("### 📄 Descargar listado completo de términos")
+st.markdown("### 📄 Descargar el Póster de AETER 2025 y el listado completo de términos")
 
 try:
     with open("AETER25.pdf", "rb") as pdf_file:

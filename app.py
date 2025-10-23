@@ -26,7 +26,7 @@ Este buscador, desarrollado como continuación de mi Trabajo de Fin de Máster, 
 propios del lenguaje especializado de los videojuegos. A través de él, es posible consultar los diferentes usos de cada término,
 sus definiciones, los mecanismos de incorporación al español y las relaciones conceptuales que establece dentro del corpus. 
 Este proyecto constituye, además, el primer paso de mi trayectoria como investigador en terminología y tecnologías del lenguaje,
-y ha dado origen a NeupaTerm**[NeupaTerm](https://www.neupaterm.com)**, un gestor terminológico multilingüe basado en el modelo DOCUTERM, diseñado para documentar
+y ha dado origen a **[NeupaTerm](https://www.neupaterm.com)**, un gestor terminológico multilingüe basado en el modelo DOCUTERM, diseñado para documentar
 y gestionar los diversos usos terminológicos de un término dentro de un dominio especializado, fundamento de mi futura tesis
 doctoral.
 """)

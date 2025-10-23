@@ -62,16 +62,6 @@ st.sidebar.markdown(
     unsafe_allow_html=True
 )
 
-# --- SECCIÓN DE EVOLUCIÓN EN SIDEBAR ---
-st.sidebar.markdown("---")
-st.sidebar.markdown("### 🚀 Evolución del proyecto")
-st.sidebar.markdown(
-    """
-    **TELEVID** fue el primer prototipo funcional de un buscador terminológico aplicado al lenguaje de los videojuegos.  
-    A partir de su desarrollo, surge **[NeupaTerm](https://neupaterm.com)**, un gestor terminológico completo basado en el modelo **DOCUTERM**, orientado a documentar **usos terminológicos** y relaciones conceptuales de forma dinámica y multilingüe.
-    """
-)
-st.sidebar.markdown("🧩 TELEVID sirvió como base metodológica y técnica de NeupaTerm.")
 
 # --- INTERFAZ PRINCIPAL ---
 st.markdown("### 🕹️ Explora los términos del corpus especializado")
